@@ -1,3 +1,25 @@
 .carousel-inner > .item > img {
     margin: 0 auto;
 }
+
+.zdjecie {
+    background-color: green;
+}
+
+.opis {
+    background-color: yellow;
+}
+
+.ng-invalid.ng-dirty
+{
+    border-color:#FA787E;
+}
+.ng-valid.ng-dirty
+{
+    border-color:#78FA89;
+}
+
+.forAlbums{
+    width: 100%;
+    height: 125vh;
+}

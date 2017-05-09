@@ -18,6 +18,11 @@ $(document).ready(function(){
         });
     });
 
+    $("#albumsLink").click(function(){
+        //$("#mainContain").load("albumy.html", function(responseTxt, statusTxt, xhr){
+        //});
+    });
+
     $("#faqLink").click(function(){
         $("#mainContain").load("faq.html", function(responseTxt, statusTxt, xhr){
         });
@@ -27,4 +32,11 @@ $(document).ready(function(){
         $("#mainContain").load("contact.html", function(responseTxt, statusTxt, xhr){
         });
     });
+
+
 });
+
+function load_home() {
+    document.getElementById("mainContain").innerHTML='<object type="text/html" data="albumy.html" class="forAlbums"></object>';
+}
+
